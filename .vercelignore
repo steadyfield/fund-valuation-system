@@ -1,0 +1,13 @@
+node_modules
+.git
+src
+public
+scripts
+.github
+*.bat
+*.txt
+*.md
+package.json
+package-lock.json
+requirements.txt
+vercel.json

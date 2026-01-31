@@ -1,0 +1,11 @@
+Python 环境需要更新。请执行以下命令：
+
+pip install --upgrade numpy pandas akshare
+
+然后运行：
+python scripts/fetch_data.py
+
+这会生成包含 100+ 只基金的真实数据。
+
+如果暂时无法运行，可以先使用示例数据部署，
+网站功能完全正常，只是数据是示例的。
