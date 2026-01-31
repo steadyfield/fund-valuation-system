@@ -364,36 +364,37 @@ def get_fund_valuation(code, name):
         # 获取持仓
         holdings = []
         try:
+            # 获取最新持仓数据
             portfolio = ak.fund_portfolio_hold_em(symbol=code, date="")
+            
             if not portfolio.empty:
-                stock_holdings = portfolio[portfolio['资产类别'] == '股票']
-                if not stock_holdings.empty:
-                    for _, row in stock_holdings.head(10).iterrows():
-                        stock_code = str(row['股票代码'])
-                        stock_name = str(row['股票名称'])
-                        holding_ratio = float(row['占净值比例'])
-                        
-                        # 如果股票名称是占位符，尝试获取真实名称
-                        if stock_name.startswith('股票') or stock_name == '' or len(stock_name) < 2:
-                            real_name = get_stock_name(stock_code)
-                            if real_name:
-                                stock_name = real_name
-                        
-                        # 获取股票当日涨跌幅
-                        stock_change = get_stock_change(stock_code)
-                        
-                        holdings.append({
-                            "股票名称": stock_name,
-                            "股票代码": stock_code,
-                            "持仓比例": round(holding_ratio, 2),
-                            "涨跌幅": round(stock_change, 2),
-                            "贡献度": round(holding_ratio * stock_change / 100, 4)  # 对基金估值的贡献
-                        })
-                    print(f"✓{len(holdings)}股")
-                else:
-                    print("✗")
+                # 直接处理股票数据（无需筛选资产类别）
+                for _, row in portfolio.head(10).iterrows():
+                    stock_code = str(row['股票代码'])
+                    stock_name = str(row['股票名称'])
+                    holding_ratio = float(row['占净值比例'])
+                    
+                    # 如果股票名称是占位符，尝试获取真实名称
+                    if stock_name.startswith('股票') or stock_name == '' or len(stock_name) < 2:
+                        real_name = get_stock_name(stock_code)
+                        if real_name:
+                            stock_name = real_name
+                    
+                    # 获取股票当日涨跌幅
+                    stock_change = get_stock_change(stock_code)
+                    
+                    holdings.append({
+                        "股票名称": stock_name,
+                        "股票代码": stock_code,
+                        "持仓比例": round(holding_ratio, 2),
+                        "涨跌幅": round(stock_change, 2),
+                        "贡献度": round(holding_ratio * stock_change / 100, 4)
+                    })
+                print(f"✓{len(holdings)}股")
+            else:
+                print("无持仓")
         except Exception as e:
-            print(f"✗持仓")
+            print(f"✗{str(e)[:20]}")
 
         return {
             "code": code,
