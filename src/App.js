@@ -116,14 +116,22 @@ function App() {
             {fund.holdings && fund.holdings.length > 0 && (
               <div className="holdings">
                 <h4>前十大重仓 ({fund.holdings.length})</h4>
-                <ul>
-                  {fund.holdings.slice(0, 5).map((stock, index) => (
-                    <li key={index}>
-                      <span>{stock.股票名称}</span>
-                      <span className="weight">{stock.持仓比例}%</span>
-                    </li>
+                <div className="holdings-list">
+                  {fund.holdings.slice(0, 10).map((stock, index) => (
+                    <div key={index} className="holding-item">
+                      <div className="holding-info">
+                        <span className="holding-name">{stock.股票名称}</span>
+                        <span className="holding-code">{stock.股票代码}</span>
+                      </div>
+                      <div className="holding-stats">
+                        <span className="holding-ratio">{stock.持仓比例}%</span>
+                        <span className={`holding-change ${stock.涨跌幅 >= 0 ? 'up' : 'down'}`}>
+                          {stock.涨跌幅 > 0 ? '+' : ''}{stock.涨跌幅.toFixed(2)}%
+                        </span>
+                      </div>
+                    </div>
                   ))}
-                </ul>
+                </div>
               </div>
             )}
           </div>

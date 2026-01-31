@@ -1,0 +1,153 @@
+.kline-container {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.kline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.kline-header h3 {
+  margin: 0;
+  color: #e6edf3;
+  font-size: 1.2rem;
+}
+
+.kline-controls {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.period-selector,
+.indicator-selector {
+  display: flex;
+  gap: 5px;
+}
+
+.period-selector button,
+.indicator-selector button {
+  background: #21262d;
+  border: 1px solid #30363d;
+  color: #8b949e;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.period-selector button:hover,
+.indicator-selector button:hover {
+  background: #30363d;
+  color: #e6edf3;
+}
+
+.period-selector button.active,
+.indicator-selector button.active {
+  background: #58a6ff;
+  color: #fff;
+  border-color: #58a6ff;
+}
+
+.kline-chart {
+  background: #0d1117;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.kline-chart svg {
+  display: block;
+}
+
+.indicator-panel {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #30363d;
+}
+
+.indicator-panel h4 {
+  margin: 0 0 10px 0;
+  color: #8b949e;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.kline-stats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 15px;
+  background: #0d1117;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+.kline-stats .stat {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.kline-stats .stat span {
+  color: #8b949e;
+  font-size: 0.85rem;
+}
+
+.kline-stats .stat strong {
+  color: #e6edf3;
+  font-size: 1.1rem;
+  font-family: monospace;
+}
+
+.kline-loading,
+.kline-error {
+  text-align: center;
+  padding: 40px;
+  color: #8b949e;
+  font-size: 0.95rem;
+}
+
+.kline-error {
+  color: #f78166;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .kline-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .kline-controls {
+    width: 100%;
+  }
+  
+  .period-selector,
+  .indicator-selector {
+    width: 100%;
+  }
+  
+  .period-selector button,
+  .indicator-selector button {
+    flex: 1;
+  }
+  
+  .kline-stats {
+    justify-content: space-between;
+  }
+  
+  .kline-stats .stat {
+    flex: 1;
+    min-width: 80px;
+  }
+}

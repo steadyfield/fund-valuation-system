@@ -388,3 +388,104 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* 持仓信息样式 */
+.holdings {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #30363d;
+}
+
+.holdings h4 {
+  margin: 0 0 12px 0;
+  color: #8b949e;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.holdings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.holding-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  background: #0d1117;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.holding-item:hover {
+  background: #161b22;
+}
+
+.holding-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+}
+
+.holding-name {
+  color: #e6edf3;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.holding-code {
+  color: #8b949e;
+  font-size: 0.75rem;
+  font-family: monospace;
+}
+
+.holding-stats {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.holding-ratio {
+  color: #58a6ff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  min-width: 50px;
+  text-align: right;
+}
+
+.holding-change {
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: monospace;
+  min-width: 60px;
+  text-align: right;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.holding-change.up {
+  color: #f78166;
+  background: rgba(247, 129, 102, 0.1);
+}
+
+.holding-change.down {
+  color: #7ee787;
+  background: rgba(126, 231, 135, 0.1);
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .holding-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .holding-stats {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

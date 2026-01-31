@@ -284,19 +284,63 @@ def get_accurate_valuation(code):
     return None
 
 def get_stock_name(stock_code):
-    """获取股票真实名称"""
+    """获取股票真实名称（增强版）"""
     try:
-        # 尝试从实时行情获取股票名称
+        # 方法1: 从个股信息获取
+        info = ak.stock_individual_info_em(symbol=stock_code)
+        if not info.empty:
+            name_row = info[info['item'] == '股票简称']
+            if not name_row.empty:
+                return str(name_row['value'].values[0])
+    except:
+        pass
+    
+    try:
+        # 方法2: 从实时行情获取
         df = ak.stock_zh_a_spot_em()
         stock = df[df['代码'] == stock_code]
         if not stock.empty:
             return str(stock['名称'].values[0])
     except:
         pass
+    
+    try:
+        # 方法3: 从历史数据获取
+        hist = ak.stock_zh_a_hist(symbol=stock_code, period="daily", adjust="qfq")
+        if not hist.empty and '股票名称' in hist.columns:
+            return str(hist['股票名称'].iloc[0])
+    except:
+        pass
+    
     return None
 
+def get_stock_change(stock_code):
+    """获取股票当日涨跌幅"""
+    try:
+        # 方法1: 从实时行情获取
+        df = ak.stock_zh_a_spot_em()
+        stock = df[df['代码'] == stock_code]
+        if not stock.empty:
+            change = float(stock['涨跌幅'].values[0])
+            return change
+    except:
+        pass
+    
+    try:
+        # 方法2: 从个股信息获取
+        info = ak.stock_individual_info_em(symbol=stock_code)
+        if not info.empty:
+            change_row = info[info['item'] == '涨跌幅']
+            if not change_row.empty:
+                change_str = str(change_row['value'].values[0]).replace('%', '')
+                return float(change_str)
+    except:
+        pass
+    
+    return 0.0
+
 def get_fund_valuation(code, name):
-    """获取基金完整信息"""
+    """获取基金完整信息（包含股票涨跌幅）"""
     print(f"[{code}] {name}...", end=" ")
     
     try:
@@ -327,6 +371,7 @@ def get_fund_valuation(code, name):
                     for _, row in stock_holdings.head(10).iterrows():
                         stock_code = str(row['股票代码'])
                         stock_name = str(row['股票名称'])
+                        holding_ratio = float(row['占净值比例'])
                         
                         # 如果股票名称是占位符，尝试获取真实名称
                         if stock_name.startswith('股票') or stock_name == '' or len(stock_name) < 2:
@@ -334,10 +379,15 @@ def get_fund_valuation(code, name):
                             if real_name:
                                 stock_name = real_name
                         
+                        # 获取股票当日涨跌幅
+                        stock_change = get_stock_change(stock_code)
+                        
                         holdings.append({
                             "股票名称": stock_name,
-                            "持仓比例": float(row['占净值比例']),
                             "股票代码": stock_code,
+                            "持仓比例": round(holding_ratio, 2),
+                            "涨跌幅": round(stock_change, 2),
+                            "贡献度": round(holding_ratio * stock_change / 100, 4)  # 对基金估值的贡献
                         })
                     print(f"✓{len(holdings)}股")
                 else:
