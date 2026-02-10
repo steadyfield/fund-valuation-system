@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-10 15:27:47",
+  "last_updated": "2026-02-10 15:52:09",
   "total_count": 48,
   "success_count": 48,
   "realtime_count": 0,
@@ -7,10 +7,10 @@
     {
       "code": "018957",
       "name": "中航机遇领航混合C",
-      "estimation": -0.3,
+      "estimation": -0.4,
       "net_value": 3.6702,
-      "est_value": 3.6591,
-      "update_time": "2026-02-10 14:48",
+      "est_value": 3.6557,
+      "update_time": "2026-02-10 15:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -18,10 +18,10 @@
     {
       "code": "002112",
       "name": "德邦鑫星价值灵活配置混合C",
-      "estimation": -0.27,
+      "estimation": -0.22,
       "net_value": 4.0191,
-      "est_value": 4.0083,
-      "update_time": "2026-02-10 14:54",
+      "est_value": 4.0103,
+      "update_time": "2026-02-10 15:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -29,10 +29,10 @@
     {
       "code": "016371",
       "name": "信澳业绩驱动混合C",
-      "estimation": -0.56,
+      "estimation": -0.62,
       "net_value": 1.8635,
-      "est_value": 1.8531,
-      "update_time": "2026-02-10 14:58",
+      "est_value": 1.852,
+      "update_time": "2026-02-10 15:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -40,9 +40,9 @@
     {
       "code": "019432",
       "name": "永赢睿信混合C",
-      "estimation": 0.39,
+      "estimation": 0.32,
       "net_value": 2.3342,
-      "est_value": 2.3433,
+      "est_value": 2.3418,
       "update_time": "2026-02-10 15:00",
       "data_source": "天天基金实时",
       "holdings": [],
@@ -161,10 +161,10 @@
     {
       "code": "020341",
       "name": "工银瑞信黄金ETF联接E",
-      "estimation": 0.28,
+      "estimation": 0.06,
       "net_value": 2.5353,
-      "est_value": 2.5423,
-      "update_time": "2026-02-10 15:15",
+      "est_value": 2.5368,
+      "update_time": "2026-02-10 15:30",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -493,7 +493,7 @@
       "name": "银河领先债券C",
       "estimation": -0.01,
       "net_value": 1.2918,
-      "est_value": 1.2917,
+      "est_value": 1.2916,
       "update_time": "2026-02-10 15:00",
       "data_source": "天天基金实时",
       "holdings": [],
