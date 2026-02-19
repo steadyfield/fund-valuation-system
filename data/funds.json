@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18 16:41:58",
+  "last_updated": "2026-02-19 11:33:01",
   "total_count": 48,
   "success_count": 48,
   "realtime_count": 0,
@@ -227,10 +227,10 @@
     {
       "code": "012922",
       "name": "易方达全球成长精选混合(QDII)C",
-      "estimation": 0.0,
+      "estimation": 0.12,
       "net_value": 2.7491,
-      "est_value": 2.7491,
-      "update_time": "2026-02-18 05:00",
+      "est_value": 2.7524,
+      "update_time": "2026-02-19 05:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -238,10 +238,10 @@
     {
       "code": "017731",
       "name": "嘉实全球产业升级股票(QDII)C",
-      "estimation": 0.0,
+      "estimation": 0.15,
       "net_value": 2.7645,
-      "est_value": 2.7645,
-      "update_time": "2026-02-18 05:00",
+      "est_value": 2.7685,
+      "update_time": "2026-02-19 05:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -249,10 +249,10 @@
     {
       "code": "018147",
       "name": "建信新兴市场优选混合(QDII)C",
-      "estimation": 0.0,
+      "estimation": 0.11,
       "net_value": 1.665,
-      "est_value": 1.665,
-      "update_time": "2026-02-18 05:00",
+      "est_value": 1.6669,
+      "update_time": "2026-02-19 05:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -271,10 +271,10 @@
     {
       "code": "018230",
       "name": "易方达全球优选企业混合(QDII)C",
-      "estimation": 0.0,
+      "estimation": 0.1,
       "net_value": 1.6937,
-      "est_value": 1.6937,
-      "update_time": "2026-02-18 05:00",
+      "est_value": 1.6954,
+      "update_time": "2026-02-19 05:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -282,10 +282,10 @@
     {
       "code": "021842",
       "name": "国富全球科技互联混合(QDII)C",
-      "estimation": 0.0,
+      "estimation": 0.19,
       "net_value": 5.1923,
-      "est_value": 5.1922,
-      "update_time": "2026-02-18 05:00",
+      "est_value": 5.202,
+      "update_time": "2026-02-19 05:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -293,10 +293,10 @@
     {
       "code": "014002",
       "name": "浦银安盛全球智能科技股票(QDII)C",
-      "estimation": 0.0,
+      "estimation": 0.21,
       "net_value": 2.6491,
-      "est_value": 2.649,
-      "update_time": "2026-02-18 05:00",
+      "est_value": 2.6546,
+      "update_time": "2026-02-19 05:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -304,10 +304,10 @@
     {
       "code": "019118",
       "name": "景顺长城纳斯达克科技市值加权ETF联接(QDII)E",
-      "estimation": 0.0,
+      "estimation": 0.22,
       "net_value": 2.2381,
-      "est_value": 2.238,
-      "update_time": "2026-02-18 05:00",
+      "est_value": 2.2431,
+      "update_time": "2026-02-19 05:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -315,10 +315,10 @@
     {
       "code": "012868",
       "name": "易方达标普信息科技指数(QDII-LOF)C",
-      "estimation": 0.0,
+      "estimation": 0.21,
       "net_value": 5.4072,
-      "est_value": 5.4071,
-      "update_time": "2026-02-18 05:00",
+      "est_value": 5.4186,
+      "update_time": "2026-02-19 05:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -326,10 +326,10 @@
     {
       "code": "019172",
       "name": "摩根纳斯达克100指数(QDII)A",
-      "estimation": -0.12,
+      "estimation": 0.76,
       "net_value": 1.5164,
-      "est_value": 1.5146,
-      "update_time": "2026-02-18 05:00",
+      "est_value": 1.5279,
+      "update_time": "2026-02-19 05:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -337,10 +337,10 @@
     {
       "code": "016452",
       "name": "南方纳斯达克100指数(QDII)A",
-      "estimation": -0.12,
+      "estimation": 0.76,
       "net_value": 1.9798,
-      "est_value": 1.9774,
-      "update_time": "2026-02-18 05:00",
+      "est_value": 1.9948,
+      "update_time": "2026-02-19 05:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -348,10 +348,10 @@
     {
       "code": "019736",
       "name": "宝盈纳斯达克100指数(QDII)A",
-      "estimation": -0.12,
+      "estimation": 0.76,
       "net_value": 1.2932,
-      "est_value": 1.2917,
-      "update_time": "2026-02-18 05:00",
+      "est_value": 1.303,
+      "update_time": "2026-02-19 05:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -359,10 +359,10 @@
     {
       "code": "019305",
       "name": "摩根标普500指数(QDII)C",
-      "estimation": 0.0,
+      "estimation": 0.23,
       "net_value": 1.5377,
-      "est_value": 1.5377,
-      "update_time": "2026-02-18 05:00",
+      "est_value": 1.5412,
+      "update_time": "2026-02-19 05:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -370,10 +370,10 @@
     {
       "code": "012860",
       "name": "易方达标普500指数(QDII-LOF)C",
-      "estimation": 0.0,
+      "estimation": 0.2,
       "net_value": 2.8375,
-      "est_value": 2.8374,
-      "update_time": "2026-02-18 05:00",
+      "est_value": 2.8433,
+      "update_time": "2026-02-19 05:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
