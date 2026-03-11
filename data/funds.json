@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11 15:47:37",
+  "last_updated": "2026-03-11 16:04:15",
   "total_count": 48,
   "success_count": 48,
   "realtime_count": 0,
@@ -42,7 +42,7 @@
       "name": "永赢睿信混合C",
       "estimation": 0.36,
       "net_value": 2.3186,
-      "est_value": 2.3269,
+      "est_value": 2.3268,
       "update_time": "2026-03-11 15:00",
       "data_source": "天天基金实时",
       "holdings": [],
@@ -436,9 +436,9 @@
     {
       "code": "024307",
       "name": "兴业兴和盛债券C",
-      "estimation": 0.0,
+      "estimation": 0.01,
       "net_value": 1.0199,
-      "est_value": 1.0199,
+      "est_value": 1.02,
       "update_time": "2026-03-11 15:00",
       "data_source": "天天基金实时",
       "holdings": [],
@@ -513,7 +513,7 @@
     {
       "code": "009271",
       "name": "博时信用优选债券A",
-      "estimation": 0.0,
+      "estimation": 0.01,
       "net_value": 1.1627,
       "est_value": 1.1628,
       "update_time": "2026-03-11 15:00",
