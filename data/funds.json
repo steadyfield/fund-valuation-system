@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18 15:24:43",
+  "last_updated": "2026-03-19 13:32:05",
   "total_count": 48,
   "success_count": 48,
   "realtime_count": 0,
@@ -7,10 +7,10 @@
     {
       "code": "018957",
       "name": "中航机遇领航混合C",
-      "estimation": 4.28,
-      "net_value": 3.4489,
-      "est_value": 3.5965,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -0.21,
+      "net_value": 3.5889,
+      "est_value": 3.5813,
+      "update_time": "2026-03-19 13:22",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -18,10 +18,10 @@
     {
       "code": "002112",
       "name": "德邦鑫星价值灵活配置混合C",
-      "estimation": 4.08,
-      "net_value": 3.8379,
-      "est_value": 3.9944,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -1.15,
+      "net_value": 3.9832,
+      "est_value": 3.9374,
+      "update_time": "2026-03-19 13:22",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -29,10 +29,10 @@
     {
       "code": "016371",
       "name": "信澳业绩驱动混合C",
-      "estimation": 5.26,
-      "net_value": 1.7541,
-      "est_value": 1.8464,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -0.1,
+      "net_value": 1.839,
+      "est_value": 1.8371,
+      "update_time": "2026-03-19 13:22",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -40,10 +40,10 @@
     {
       "code": "019432",
       "name": "永赢睿信混合C",
-      "estimation": 1.16,
-      "net_value": 2.2398,
-      "est_value": 2.2658,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -2.39,
+      "net_value": 2.2772,
+      "est_value": 2.2227,
+      "update_time": "2026-03-19 13:22",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -51,10 +51,10 @@
     {
       "code": "016858",
       "name": "国金量化多因子股票C",
-      "estimation": 0.85,
-      "net_value": 3.1881,
-      "est_value": 3.2151,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -1.68,
+      "net_value": 3.2259,
+      "est_value": 3.1716,
+      "update_time": "2026-03-19 13:22",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -62,10 +62,10 @@
     {
       "code": "002834",
       "name": "华夏锦绣灵活配置混合C",
-      "estimation": 0.57,
-      "net_value": 3.0914,
-      "est_value": 3.1089,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -1.99,
+      "net_value": 3.137,
+      "est_value": 3.0746,
+      "update_time": "2026-03-19 13:22",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -73,10 +73,10 @@
     {
       "code": "021526",
       "name": "南华丰汇混合C",
-      "estimation": 1.1,
-      "net_value": 2.0577,
-      "est_value": 2.0803,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -2.24,
+      "net_value": 2.0767,
+      "est_value": 2.0302,
+      "update_time": "2026-03-19 13:21",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -84,10 +84,10 @@
     {
       "code": "015868",
       "name": "国泰海通中证1000指数增强C",
-      "estimation": 0.96,
-      "net_value": 1.5539,
-      "est_value": 1.5688,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -1.97,
+      "net_value": 1.5715,
+      "est_value": 1.5405,
+      "update_time": "2026-03-19 13:22",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -95,10 +95,10 @@
     {
       "code": "008319",
       "name": "博道久航混合C",
-      "estimation": 0.72,
-      "net_value": 1.8385,
-      "est_value": 1.8518,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -2.09,
+      "net_value": 1.8569,
+      "est_value": 1.8182,
+      "update_time": "2026-03-19 13:23",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -106,10 +106,10 @@
     {
       "code": "007950",
       "name": "招商量化精选股票C",
-      "estimation": 0.87,
-      "net_value": 3.5731,
-      "est_value": 3.6041,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -2.18,
+      "net_value": 3.6004,
+      "est_value": 3.5219,
+      "update_time": "2026-03-19 13:26",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -117,10 +117,10 @@
     {
       "code": "017874",
       "name": "国金量化多策略灵活配置混合C",
-      "estimation": 0.61,
-      "net_value": 1.4983,
-      "est_value": 1.5074,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -1.19,
+      "net_value": 1.5082,
+      "est_value": 1.4902,
+      "update_time": "2026-03-19 13:28",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -128,10 +128,10 @@
     {
       "code": "016491",
       "name": "华安事件驱动量化策略混合C",
-      "estimation": 1.4,
-      "net_value": 2.403,
-      "est_value": 2.4366,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -2.23,
+      "net_value": 2.456,
+      "est_value": 2.4013,
+      "update_time": "2026-03-19 13:27",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -139,10 +139,10 @@
     {
       "code": "017493",
       "name": "东方红新动力灵活配置混合C",
-      "estimation": 0.54,
-      "net_value": 6.044,
-      "est_value": 6.0766,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -1.84,
+      "net_value": 6.054,
+      "est_value": 5.9426,
+      "update_time": "2026-03-19 13:27",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -150,10 +150,10 @@
     {
       "code": "501060",
       "name": "中金中证优选300指数(LOF)A",
-      "estimation": 0.04,
-      "net_value": 2.4373,
-      "est_value": 2.4383,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -1.28,
+      "net_value": 2.4384,
+      "est_value": 2.4072,
+      "update_time": "2026-03-19 13:27",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -161,10 +161,10 @@
     {
       "code": "020341",
       "name": "工银瑞信黄金ETF联接E",
-      "estimation": -0.36,
-      "net_value": 2.5324,
-      "est_value": 2.5234,
-      "update_time": "2026-03-18 15:12",
+      "estimation": -2.81,
+      "net_value": 2.5231,
+      "est_value": 2.4521,
+      "update_time": "2026-03-19 13:30",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -172,10 +172,10 @@
     {
       "code": "021375",
       "name": "中欧中证红利低波动100指数A",
-      "estimation": -0.44,
-      "net_value": 1.0976,
-      "est_value": 1.0928,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -0.09,
+      "net_value": 1.0929,
+      "est_value": 1.0919,
+      "update_time": "2026-03-19 13:28",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -194,10 +194,10 @@
     {
       "code": "007467",
       "name": "华泰柏瑞中证红利低波动ETF联接C",
-      "estimation": -0.36,
-      "net_value": 1.6515,
-      "est_value": 1.6456,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -0.28,
+      "net_value": 1.6462,
+      "est_value": 1.6416,
+      "update_time": "2026-03-19 13:28",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -205,10 +205,10 @@
     {
       "code": "024117",
       "name": "中欧国证自由现金流指数A",
-      "estimation": -0.47,
-      "net_value": 1.1578,
-      "est_value": 1.1524,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -1.51,
+      "net_value": 1.1524,
+      "est_value": 1.135,
+      "update_time": "2026-03-19 13:28",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -392,10 +392,10 @@
     {
       "code": "016367",
       "name": "嘉实多利收益债券C",
-      "estimation": 0.47,
-      "net_value": 0.9417,
-      "est_value": 0.9461,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -0.57,
+      "net_value": 0.9437,
+      "est_value": 0.9383,
+      "update_time": "2026-03-19 13:28",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -403,10 +403,10 @@
     {
       "code": "018278",
       "name": "博时稳健增利债券C",
-      "estimation": 0.08,
-      "net_value": 1.1408,
-      "est_value": 1.1417,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -0.37,
+      "net_value": 1.1388,
+      "est_value": 1.1346,
+      "update_time": "2026-03-19 13:28",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -414,10 +414,10 @@
     {
       "code": "014847",
       "name": "博时恒乐债券C",
-      "estimation": 0.11,
-      "net_value": 1.1973,
-      "est_value": 1.1986,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -0.41,
+      "net_value": 1.1956,
+      "est_value": 1.1906,
+      "update_time": "2026-03-19 13:29",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -425,10 +425,10 @@
     {
       "code": "000069",
       "name": "国投瑞银中高等级债券A",
-      "estimation": 0.13,
-      "net_value": 1.1569,
-      "est_value": 1.1584,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -0.19,
+      "net_value": 1.1582,
+      "est_value": 1.156,
+      "update_time": "2026-03-19 13:29",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -436,10 +436,10 @@
     {
       "code": "024307",
       "name": "兴业兴和盛债券C",
-      "estimation": 0.01,
-      "net_value": 1.0203,
-      "est_value": 1.0204,
-      "update_time": "2026-03-18 15:00",
+      "estimation": 0.03,
+      "net_value": 1.0204,
+      "est_value": 1.0207,
+      "update_time": "2026-03-19 13:28",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -447,10 +447,10 @@
     {
       "code": "160323",
       "name": "华夏磐泰混合(LOF)A",
-      "estimation": 0.3,
-      "net_value": 1.7512,
-      "est_value": 1.7564,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -0.63,
+      "net_value": 1.7589,
+      "est_value": 1.7479,
+      "update_time": "2026-03-19 13:28",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -458,10 +458,10 @@
     {
       "code": "017820",
       "name": "鹏华丰利债券(LOF)C",
-      "estimation": 0.23,
-      "net_value": 1.1295,
-      "est_value": 1.1321,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -0.31,
+      "net_value": 1.1309,
+      "est_value": 1.1274,
+      "update_time": "2026-03-19 13:29",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -469,10 +469,10 @@
     {
       "code": "011250",
       "name": "嘉实稳裕混合C",
-      "estimation": 0.0,
-      "net_value": 1.1691,
-      "est_value": 1.1692,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -0.22,
+      "net_value": 1.1696,
+      "est_value": 1.167,
+      "update_time": "2026-03-19 13:29",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -480,10 +480,10 @@
     {
       "code": "710302",
       "name": "富安达增强收益债券C",
-      "estimation": 0.02,
-      "net_value": 1.3841,
-      "est_value": 1.3844,
-      "update_time": "2026-03-18 15:00",
+      "estimation": 0.04,
+      "net_value": 1.3842,
+      "est_value": 1.3848,
+      "update_time": "2026-03-19 13:28",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -491,10 +491,10 @@
     {
       "code": "017763",
       "name": "银河领先债券C",
-      "estimation": 0.11,
-      "net_value": 1.2893,
-      "est_value": 1.2908,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -0.12,
+      "net_value": 1.29,
+      "est_value": 1.2884,
+      "update_time": "2026-03-19 13:29",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -502,10 +502,10 @@
     {
       "code": "019594",
       "name": "嘉实稳宁纯债债券C",
-      "estimation": 0.02,
-      "net_value": 1.0658,
-      "est_value": 1.066,
-      "update_time": "2026-03-18 15:00",
+      "estimation": 0.01,
+      "net_value": 1.066,
+      "est_value": 1.0661,
+      "update_time": "2026-03-19 13:29",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -514,9 +514,9 @@
       "code": "009271",
       "name": "博时信用优选债券A",
       "estimation": 0.01,
-      "net_value": 1.163,
-      "est_value": 1.1631,
-      "update_time": "2026-03-18 15:00",
+      "net_value": 1.1631,
+      "est_value": 1.1632,
+      "update_time": "2026-03-19 13:29",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -524,10 +524,10 @@
     {
       "code": "015727",
       "name": "中泰双利债券A",
-      "estimation": -0.01,
-      "net_value": 1.1177,
-      "est_value": 1.1176,
-      "update_time": "2026-03-18 15:00",
+      "estimation": -0.06,
+      "net_value": 1.1173,
+      "est_value": 1.1166,
+      "update_time": "2026-03-19 13:29",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
