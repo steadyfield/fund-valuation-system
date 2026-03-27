@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27 15:58:24",
+  "last_updated": "2026-03-27 16:21:06",
   "total_count": 48,
   "success_count": 48,
   "realtime_count": 0,
@@ -40,9 +40,9 @@
     {
       "code": "019432",
       "name": "永赢睿信混合C",
-      "estimation": 0.82,
+      "estimation": 0.86,
       "net_value": 2.1529,
-      "est_value": 2.1705,
+      "est_value": 2.1714,
       "update_time": "2026-03-27 15:00",
       "data_source": "天天基金实时",
       "holdings": [],
@@ -205,9 +205,9 @@
     {
       "code": "024117",
       "name": "中欧国证自由现金流指数A",
-      "estimation": 0.36,
+      "estimation": 0.35,
       "net_value": 1.1148,
-      "est_value": 1.1188,
+      "est_value": 1.1187,
       "update_time": "2026-03-27 15:00",
       "data_source": "天天基金实时",
       "holdings": [],
