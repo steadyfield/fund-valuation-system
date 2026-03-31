@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31 15:42:09",
+  "last_updated": "2026-03-31 16:14:31",
   "total_count": 48,
   "success_count": 48,
   "realtime_count": 0,
@@ -40,9 +40,9 @@
     {
       "code": "019432",
       "name": "永赢睿信混合C",
-      "estimation": -1.6,
+      "estimation": -1.86,
       "net_value": 2.1688,
-      "est_value": 2.1341,
+      "est_value": 2.1285,
       "update_time": "2026-03-31 15:00",
       "data_source": "天天基金实时",
       "holdings": [],
@@ -524,9 +524,9 @@
     {
       "code": "015727",
       "name": "中泰双利债券A",
-      "estimation": 0.01,
+      "estimation": 0.03,
       "net_value": 1.1144,
-      "est_value": 1.1145,
+      "est_value": 1.1148,
       "update_time": "2026-03-31 15:00",
       "data_source": "天天基金实时",
       "holdings": [],
