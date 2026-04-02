@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02 16:09:25",
+  "last_updated": "2026-04-02 16:37:02",
   "total_count": 48,
   "success_count": 48,
   "realtime_count": 0,
@@ -40,9 +40,9 @@
     {
       "code": "019432",
       "name": "永赢睿信混合C",
-      "estimation": -1.63,
+      "estimation": -1.59,
       "net_value": 2.1958,
-      "est_value": 2.16,
+      "est_value": 2.1609,
       "update_time": "2026-04-02 15:00",
       "data_source": "天天基金实时",
       "holdings": [],
