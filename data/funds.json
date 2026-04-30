@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30 15:28:39",
+  "last_updated": "2026-04-30 15:33:19",
   "total_count": 48,
   "success_count": 48,
   "realtime_count": 0,
@@ -42,7 +42,7 @@
       "name": "永赢睿信混合C",
       "estimation": -0.46,
       "net_value": 2.3322,
-      "est_value": 2.3215,
+      "est_value": 2.3214,
       "update_time": "2026-04-30 15:00",
       "data_source": "天天基金实时",
       "holdings": [],
@@ -161,10 +161,10 @@
     {
       "code": "020341",
       "name": "工银瑞信黄金ETF联接E",
-      "estimation": 0.36,
+      "estimation": 0.37,
       "net_value": 2.2939,
-      "est_value": 2.3021,
-      "update_time": "2026-04-30 15:26",
+      "est_value": 2.3023,
+      "update_time": "2026-04-30 15:30",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
