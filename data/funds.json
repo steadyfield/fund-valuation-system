@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13 12:38:24",
+  "last_updated": "2026-05-13 12:55:06",
   "total_count": 48,
   "success_count": 48,
   "realtime_count": 0,
@@ -161,10 +161,10 @@
     {
       "code": "020341",
       "name": "工银瑞信黄金ETF联接E",
-      "estimation": 0.0,
+      "estimation": -0.04,
       "net_value": 2.3359,
-      "est_value": 2.3359,
-      "update_time": "2026-05-13 12:36",
+      "est_value": 2.335,
+      "update_time": "2026-05-13 12:52",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
