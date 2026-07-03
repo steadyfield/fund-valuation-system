@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03 12:39:44",
+  "last_updated": "2026-07-03 12:50:29",
   "total_count": 48,
   "success_count": 48,
   "realtime_count": 0,
@@ -164,7 +164,7 @@
       "estimation": 2.74,
       "net_value": 2.0136,
       "est_value": 2.0688,
-      "update_time": "2026-07-03 12:33",
+      "update_time": "2026-07-03 12:48",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
