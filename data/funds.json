@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10 12:57:59",
+  "last_updated": "2026-07-10 13:00:40",
   "total_count": 48,
   "success_count": 48,
   "realtime_count": 0,
@@ -164,7 +164,7 @@
       "estimation": -0.06,
       "net_value": 2.0387,
       "est_value": 2.0374,
-      "update_time": "2026-07-10 12:54",
+      "update_time": "2026-07-10 12:56",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -502,9 +502,9 @@
     {
       "code": "019594",
       "name": "嘉实稳宁纯债债券C",
-      "estimation": 0.0,
+      "estimation": 0.01,
       "net_value": 1.0716,
-      "est_value": 1.0716,
+      "est_value": 1.0717,
       "update_time": "2026-07-10 11:30",
       "data_source": "天天基金实时",
       "holdings": [],
@@ -524,7 +524,7 @@
     {
       "code": "015727",
       "name": "中泰双利债券A",
-      "estimation": 0.05,
+      "estimation": 0.06,
       "net_value": 1.1174,
       "est_value": 1.118,
       "update_time": "2026-07-10 11:30",
